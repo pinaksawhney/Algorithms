@@ -31,6 +31,8 @@ long prime_max(long n) {
 }
 
 int main() {
-    cout << prime_max(1325);
+    int n{};
+    cin>>n;
+    cout << prime_max(n);
     return 0;
 }
