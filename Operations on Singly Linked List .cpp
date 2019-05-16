@@ -14,12 +14,14 @@ void delete_node(int position);
 void reverse_list();
 void Fprint(node* p);
 void Rprint(node* p);
+void Reverse_r(node* p);
 
 int main() {
     int option{}; int data{};int pos{};
-    while(option != 8)
+    while(option != 9)
     {   cout << "(1) To Add position wise (2) To add at the beginning (3) To Print current List (4) Delete node "
-                "(5) Reverse List (6) Forward Print using Recursion (7) Reverse Print using Recursion (8) Quit"<<endl;
+                "(5) Reverse List (6) Forward Print using Recursion (7) Reverse Print using Recursion "
+                "(8) Reversing list using Recursion (9) Quit"<<endl;
         cin>>option;
         if (option == 1){
             cout << "Enter position: "<<endl;
@@ -53,6 +55,10 @@ int main() {
         else if(option == 7){
             cout << "Reverse List : "<<endl;
             Rprint(head);
+        }
+        else if(option == 8){
+            cout << "Reversing List... "<<endl;
+            Reverse_r(head);
         }
     }
     return 0;
@@ -140,4 +146,18 @@ void Rprint(node* p){
         Rprint(p->next);
         cout<<p->data<<" ";
     }
+}
+
+// Reverse the list using recursive approach
+
+void Reverse_r(node* p){
+    if(p->next==nullptr){
+        head = p;
+        return;
+    }
+    Reverse_r(p->next);
+    //statement to reverse a node
+    node* q = p->next;
+    q->next = p;
+    p->next = nullptr;
 }
