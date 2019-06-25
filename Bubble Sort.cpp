@@ -1,4 +1,4 @@
-// Selection Sort
+// Bubble Sort
 // Time O(n^2) Space O(1)
 
 #include <iostream>
