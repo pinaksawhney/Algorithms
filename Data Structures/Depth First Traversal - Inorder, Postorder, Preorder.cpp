@@ -1,6 +1,9 @@
-// Depth First Traversal - Preorder, Post order and Inorder Traversal
-// Time Complexity - O(n)
-// Space Complexity -  O(h) Best case h=log(n) Worst case h=n
+/* Depth First Traversal - Preorder, Post order and Inorder Traversal
+ Time Complexity - O(n)
+ Space Complexity -  O(h) Best case h=log(n) Worst case h=n
+
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -18,6 +21,7 @@ void Inorder(node* root_ptr);
 void Postorder(node* root_ptr);
 
 int main(){
+    // sample insertions to form a tree
     root = Insert(root,15);
     root = Insert(root,10);
     root = Insert(root,20);
