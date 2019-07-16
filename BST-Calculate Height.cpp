@@ -1,4 +1,8 @@
-// Finding height of the BST
+/*  Finding height of the Binary tree
+    Height of a tree is defined as Maximum Length of the path from root node to leaves.
+    Time Complexity : O(n)
+ */
+
 #include <iostream>
 using namespace std;
 
@@ -14,6 +18,8 @@ node* Insert(node* root, int data);
 int height(node* root);
 
 int main(){
+    // inserting sample nodes in tree to calculate height
+    // this can be taken as an input from user as well
     root = Insert(root,15);
     root = Insert(root,10);
     root = Insert(root,20);
