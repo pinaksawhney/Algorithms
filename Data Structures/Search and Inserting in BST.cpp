@@ -1,4 +1,6 @@
-// Binary Search Tree Recursive Implementation
+/*
+ Implementing Binary Search tree Insertion and Search operations
+*/
 #include <iostream>
 using namespace std;
 
@@ -12,6 +14,8 @@ node* root = nullptr;
 node* GetnewNode(int data);
 node* Insert(node* root, int data);
 bool Search_binary(node* root, int data);
+
+// driver program
 
 int main(){
     root = Insert(root,5);
