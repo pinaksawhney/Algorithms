@@ -1,4 +1,5 @@
 // Breadth First Traversal of Binary Tree
+// BFS is done using queue as an auxillary data structure
 #include <iostream>
 #include <queue>
 using namespace std;
