@@ -9,4 +9,5 @@
 
 ## Graphs
 ### Basic Operations
-	1. Graph Represenatation interms of Adjacency List
+	1. Represenatation of graph interms of Adjacency List
+	2. DFS traversal on graph
