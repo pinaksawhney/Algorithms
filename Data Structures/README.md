@@ -15,3 +15,6 @@
 	4. Topological Sort of Directed Acyclic graph
 	5. Strongly Connected Components in DAG using Kosaraju's 2 pass algorithm
 	6. BFS on DAG
+
+## Heaps
+	1. Basic Operations on Binary Heap
