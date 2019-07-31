@@ -19,3 +19,17 @@
 
 ## Heaps
 	1. Basic Operations on Binary Heap
+
+## Stack
+	1. Implemented stack using linked-list
+	2. Implemented stack using static array
+	3. Reversing a string
+	4. Check if the paranthesis is balanced
+
+## Linked List
+	1. Basic operations on singly linked list
+	2. Basic operations on doubly linked list
+
+## Queue
+	1. Linkedlist implementation of Queue
+	2. Circular array implementation of Queue
